@@ -16,7 +16,7 @@ def run():
 
   # Abrir la hoja de cálculo
   spreadsheet = client.open(
-      "A Copia de Claves y anio 2024")  # Ajusta el nombre
+      "Claves y anio 2024")  # Ajusta el nombre
   # Ajusta el nombre de la pestaña
   worksheet = spreadsheet.worksheet("Claves 2024 clientes mensuales")
   try:

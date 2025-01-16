@@ -14,7 +14,7 @@ def run(worksheet_name):
     client = gspread.authorize(creds)
 
     # Abrir la hoja de cálculo
-    spreadsheet = client.open("A Copia de Claves y anio 2024")
+    spreadsheet = client.open("Facturacion anual")
     worksheet = spreadsheet.worksheet(worksheet_name)
 
     # Paso 2: Leer el archivo txt

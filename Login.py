@@ -71,7 +71,7 @@ def login(credencial, path_to_chromedriver, download_path):
 
             # Seleccionar "Mes pasado"
             wait.until(EC.element_to_be_clickable((By.ID, "fechaEmision"))).click()
-            wait.until(EC.presence_of_element_located((By.XPATH, "//li[@data-range-key='Mes Pasado']"))).click()
+            wait.until(EC.presence_of_element_located((By.XPATH, "//li[@data-range-key='Año Pasado']"))).click()
 
             # Buscar los comprobantes
             wait.until(EC.element_to_be_clickable((By.ID, "buscarComprobantes"))).click()
